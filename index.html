@@ -788,6 +788,97 @@
 }
 
 </style>
+<style>
+
+.seo-modal-overlay{
+    position:fixed;
+    inset:0;
+    background:rgba(0,0,0,0.6);
+    z-index:999999;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.seo-modal-box{
+    width:100%;
+    max-width:550px;
+    background:#fff;
+    border-radius:14px;
+    overflow:hidden;
+    font-family:'Quicksand', sans-serif;
+}
+
+.seo-modal-header{
+    padding:18px 22px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    border-bottom:1px solid #eee;
+}
+
+.seo-modal-header h3{
+    margin:0;
+    font-size:22px;
+    font-weight:700;
+}
+
+#closeSeoModal{
+    border:none;
+    background:none;
+    font-size:28px;
+    cursor:pointer;
+}
+
+.seo-modal-body{
+    padding:22px;
+}
+
+.seo-modal-body label{
+    display:block;
+    margin-bottom:8px;
+    font-weight:600;
+}
+
+.seo-modal-body textarea,
+.seo-modal-body input{
+    width:100%;
+    border:1px solid #ddd;
+    border-radius:10px;
+    padding:12px;
+    margin-bottom:18px;
+    outline:none;
+}
+
+.seo-modal-body textarea{
+    height:120px;
+    resize:none;
+}
+
+.seo-modal-footer{
+    padding:18px 22px;
+    display:flex;
+    justify-content:flex-end;
+    gap:12px;
+    border-top:1px solid #eee;
+}
+
+.seo-modal-footer button{
+    border:none;
+    padding:10px 22px;
+    border-radius:30px;
+    cursor:pointer;
+    font-weight:600;
+    color: #FFF;
+  background: #3b3b3b;
+}
+
+#saveSeoUpdate{
+    background:linear-gradient(135deg,#e39a4e,#fb1b1b);
+    color:#fff;
+}
+
+</style>
 </head>
 <body class="" style="">
 <div class="" id="wrapper" style="pointer-events: auto;">
@@ -798,7 +889,7 @@
 <!-- Left Image + Video Button -->
 <div class="col-sm-6 text-center">
 <div class="about-23-video-wrap">
-<img alt="About Us" class="img-responsive updateImg" src="assets/images/about-23.jpg?v=1781595339?v=1781595498?v=1781624824?v=1781624958?v=1781625005?v=1791362069?v=1791362145"/>
+<img alt="About Us" class="img-responsive updateImg" src="assets/images/about-23.jpg?v=1781595339?v=1781595498?v=1781624824?v=1781624958?v=1781625005?v=1791362069?v=1791362145?v=1791362797"/>
 <a class="about-23-video-btn" href="#" style="cursor: pointer;"><i class="ri-play-fill"></i></a>
 </div>
 </div>
@@ -867,7 +958,7 @@
 </div>
 <!-- RIGHT IMAGE -->
 <div class="col-md-6 col-sm-6 about-56-img-wrap">
-<img alt="Modern Architecture" class="img-responsive updateImg" src="assets/images/about-56.jpg?v=1791362069?v=1791362145"/>
+<img alt="Modern Architecture" class="img-responsive updateImg" src="assets/images/about-56.jpg?v=1791362069?v=1791362145?v=1791362797"/>
 <div class="about-56-exp-box">
 <small class="">Years Of Experience</small>
 <h3 class="">15+</h3>
@@ -875,7 +966,7 @@
 </div>
 </div>
 </div>
-</section><section class="section-wrapper about-14" id="section-jd1kyncknua" style="background-image: url('assets/images/about-14-bg.jpg');?v=1791362145">
+</section><section class="section-wrapper about-14 updateImg" id="section-jd1kyncknua" style="background-image: url('assets/images/about-14-bg.jpg');?v=1791362145?v=1791362797">
 <div class="about-14-overlay"></div>
 <div class="container">
 <div class="row about-14-row">
@@ -1006,7 +1097,7 @@
 <!-- Left Large Blog -->
 <div class="col-md-6">
 <div class="blog-16-card blog-16-card-large">
-<img alt="Travel" class="img-responsive updateImg" src="assets/images/blog-16-1.jpg?v=1781624824?v=1781624958?v=1781625005?v=1791362069?v=1791362145"/>
+<img alt="Travel" class="img-responsive updateImg" src="assets/images/blog-16-1.jpg?v=1781624824?v=1781624958?v=1781625005?v=1791362069?v=1791362145?v=1791362797"/>
 <div class="blog-16-content">
 <p class="blog-16-meta">
                             Admin    Feb 2023    12 Comment
@@ -1026,7 +1117,7 @@
 <!-- Blog 1 -->
 <div class="blog-16-card blog-16-card-small clearfix">
 <div class="col-sm-5 col-xs-12">
-<img alt="Travel" class="img-responsive updateImg" src="assets/images/blog-16-2.jpg?v=1781624824?v=1781624958?v=1781625005?v=1791362069?v=1791362145"/>
+<img alt="Travel" class="img-responsive updateImg" src="assets/images/blog-16-2.jpg?v=1781624824?v=1781624958?v=1781625005?v=1791362069?v=1791362145?v=1791362797"/>
 </div>
 <div class="col-sm-7 col-xs-12 blog-16-small-content">
 <p class="blog-16-meta">Admin    Feb 2023    17 Comment</p>
@@ -1037,7 +1128,7 @@
 <!-- Blog 2 -->
 <div class="blog-16-card blog-16-card-small clearfix">
 <div class="col-sm-5 col-xs-12">
-<img alt="Travel" class="img-responsive updateImg" src="assets/images/blog-16-3.jpg?v=1781624824?v=1781624958?v=1781625005?v=1791362069?v=1791362145"/>
+<img alt="Travel" class="img-responsive updateImg" src="assets/images/blog-16-3.jpg?v=1781624824?v=1781624958?v=1781625005?v=1791362069?v=1791362145?v=1791362797"/>
 </div>
 <div class="col-sm-7 col-xs-12 blog-16-small-content">
 <p class="blog-16-meta">Admin    Feb 2023    3 Comment</p>
@@ -1048,7 +1139,7 @@
 <!-- Blog 3 -->
 <div class="blog-16-card blog-16-card-small clearfix">
 <div class="col-sm-5 col-xs-12">
-<img alt="Travel" class="img-responsive updateImg" src="assets/images/blog-16-4.jpg?v=1781624824?v=1781624958?v=1781625005?v=1791362069?v=1791362145"/>
+<img alt="Travel" class="img-responsive updateImg" src="assets/images/blog-16-4.jpg?v=1781624824?v=1781624958?v=1781625005?v=1791362069?v=1791362145?v=1791362797"/>
 </div>
 <div class="col-sm-7 col-xs-12 blog-16-small-content">
 <p class="blog-16-meta">Admin    Mar 2023    5 Comment</p>
@@ -1059,7 +1150,7 @@
 <!-- Blog 4 -->
 <div class="blog-16-card blog-16-card-small clearfix">
 <div class="col-sm-5 col-xs-12">
-<img alt="Travel" class="img-responsive updateImg" src="assets/images/blog-16-5.jpg?v=1781624824?v=1781624958?v=1781625005?v=1791362069?v=1791362145"/>
+<img alt="Travel" class="img-responsive updateImg" src="assets/images/blog-16-5.jpg?v=1781624824?v=1781624958?v=1781625005?v=1791362069?v=1791362145?v=1791362797"/>
 </div>
 <div class="col-sm-7 col-xs-12 blog-16-small-content">
 <p class="blog-16-meta">Admin    Apr 2023    9 Comment</p>
@@ -1073,6 +1164,38 @@
 <!-- Go To Top -->
 <div class="blog-16-gototop">
 <span class="">Go To Top</span>
+</div>
+</section><section class="section-wrapper services-27" id="section-65xcdro1y6">
+<div class="container">
+<div class="row services-27-row">
+<!-- Text Section -->
+<!-- Gallery Section -->
+<div class="col-md-6 services-27-gallery text-center">
+<div class="services-27-img-wrap">
+<img alt="Makeup Brushes" class="services-27-img updateImg" src="assets/images/services-27-1.jpg"/>
+</div>
+<div class="services-27-img-wrap">
+<img alt="Makeup Artist" class="services-27-img updateImg" src="assets/images/services-27-2.jpg"/>
+</div>
+<div class="services-27-img-wrap">
+<img alt="Makeup Artist" class="services-27-img updateImg" src="assets/images/services-27-3.jpg"/>
+</div>
+</div>
+<div class="col-md-6 services-27-text">
+<p class="services-27-subtitle">Beauty &amp; Glamour</p>
+<h2 class="services-27-title">
+                    Enhancing Looks <br class=""/> That Shine With Confidence
+                </h2>
+<p class="services-27-desc">
+                    We offer professional makeup services to help you look and feel your best for any occasion,
+                    from weddings and photoshoots to glamorous events and personal makeovers.
+                </p>
+<div class="services-27-buttons">
+<a class="services-27-link" href="#" style="cursor: pointer;">Explore Our Services</a>
+<a class="services-27-btn" href="#" style="cursor: pointer;">Book a Session <i class="ri-arrow-right-line"></i></a>
+</div>
+</div>
+</div>
 </div>
 </section>
 </div>
@@ -1147,4 +1270,5 @@
                         });
                     </script>
 <script src="assets/js/common_js/image_uploader.js"></script>
-<div class="scroll-arrow top" style="display: none;">⬆</div><div class="scroll-arrow bottom" style="display: none;">⬇</div></body></html>
+<div class="scroll-arrow top" style="display: none;">⬆</div><div class="scroll-arrow bottom" style="display: none;">⬇</div>
+</body></html>
