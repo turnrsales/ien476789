@@ -879,6 +879,97 @@
 }
 
 </style>
+<style>
+
+.seo-modal-overlay{
+    position:fixed;
+    inset:0;
+    background:rgba(0,0,0,0.6);
+    z-index:999999;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.seo-modal-box{
+    width:100%;
+    max-width:550px;
+    background:#fff;
+    border-radius:14px;
+    overflow:hidden;
+    font-family:'Quicksand', sans-serif;
+}
+
+.seo-modal-header{
+    padding:18px 22px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    border-bottom:1px solid #eee;
+}
+
+.seo-modal-header h3{
+    margin:0;
+    font-size:22px;
+    font-weight:700;
+}
+
+#closeSeoModal{
+    border:none;
+    background:none;
+    font-size:28px;
+    cursor:pointer;
+}
+
+.seo-modal-body{
+    padding:22px;
+}
+
+.seo-modal-body label{
+    display:block;
+    margin-bottom:8px;
+    font-weight:600;
+}
+
+.seo-modal-body textarea,
+.seo-modal-body input{
+    width:100%;
+    border:1px solid #ddd;
+    border-radius:10px;
+    padding:12px;
+    margin-bottom:18px;
+    outline:none;
+}
+
+.seo-modal-body textarea{
+    height:120px;
+    resize:none;
+}
+
+.seo-modal-footer{
+    padding:18px 22px;
+    display:flex;
+    justify-content:flex-end;
+    gap:12px;
+    border-top:1px solid #eee;
+}
+
+.seo-modal-footer button{
+    border:none;
+    padding:10px 22px;
+    border-radius:30px;
+    cursor:pointer;
+    font-weight:600;
+    color: #FFF;
+  background: #3b3b3b;
+}
+
+#saveSeoUpdate{
+    background:linear-gradient(135deg,#e39a4e,#fb1b1b);
+    color:#fff;
+}
+
+</style>
 </head>
 <body class="" style="">
 <div class="" id="wrapper" style="pointer-events: auto;">
@@ -889,7 +980,7 @@
 <!-- Left Image + Video Button -->
 <div class="col-sm-6 text-center">
 <div class="about-23-video-wrap">
-<img alt="About Us" class="img-responsive updateImg" src="assets/images/about-23.jpg?v=1781595339?v=1781595498?v=1781624824?v=1781624958?v=1781625005?v=1791362069?v=1791362145?v=1791362797"/>
+<img alt="About Us" class="img-responsive updateImg" src="assets/images/about-23.jpg?v=1781595339?v=1781595498?v=1781624824?v=1781624958?v=1781625005?v=1791362069?v=1791362145?v=1791362797?v=1791436133"/>
 <a class="about-23-video-btn" href="#" style="cursor: pointer;"><i class="ri-play-fill"></i></a>
 </div>
 </div>
@@ -958,7 +1049,7 @@
 </div>
 <!-- RIGHT IMAGE -->
 <div class="col-md-6 col-sm-6 about-56-img-wrap">
-<img alt="Modern Architecture" class="img-responsive updateImg" src="assets/images/about-56.jpg?v=1791362069?v=1791362145?v=1791362797"/>
+<img alt="Modern Architecture" class="img-responsive updateImg" src="assets/images/about-56.jpg?v=1791362069?v=1791362145?v=1791362797?v=1791436133"/>
 <div class="about-56-exp-box">
 <small class="">Years Of Experience</small>
 <h3 class="">15+</h3>
@@ -966,7 +1057,7 @@
 </div>
 </div>
 </div>
-</section><section class="section-wrapper about-14 updateImg" id="section-jd1kyncknua" style="background-image: url('assets/images/about-14-bg.jpg');?v=1791362145?v=1791362797">
+</section><section class="section-wrapper about-14 updateImg" id="section-jd1kyncknua" style="background-image: url('assets/images/about-14-bg.jpg');?v=1791362145?v=1791362797?v=1791436133">
 <div class="about-14-overlay"></div>
 <div class="container">
 <div class="row about-14-row">
@@ -1097,7 +1188,7 @@
 <!-- Left Large Blog -->
 <div class="col-md-6">
 <div class="blog-16-card blog-16-card-large">
-<img alt="Travel" class="img-responsive updateImg" src="assets/images/blog-16-1.jpg?v=1781624824?v=1781624958?v=1781625005?v=1791362069?v=1791362145?v=1791362797"/>
+<img alt="Travel" class="img-responsive updateImg" src="assets/images/blog-16-1.jpg?v=1781624824?v=1781624958?v=1781625005?v=1791362069?v=1791362145?v=1791362797?v=1791436133"/>
 <div class="blog-16-content">
 <p class="blog-16-meta">
                             Admin    Feb 2023    12 Comment
@@ -1117,7 +1208,7 @@
 <!-- Blog 1 -->
 <div class="blog-16-card blog-16-card-small clearfix">
 <div class="col-sm-5 col-xs-12">
-<img alt="Travel" class="img-responsive updateImg" src="assets/images/blog-16-2.jpg?v=1781624824?v=1781624958?v=1781625005?v=1791362069?v=1791362145?v=1791362797"/>
+<img alt="Travel" class="img-responsive updateImg" src="assets/images/blog-16-2.jpg?v=1781624824?v=1781624958?v=1781625005?v=1791362069?v=1791362145?v=1791362797?v=1791436133"/>
 </div>
 <div class="col-sm-7 col-xs-12 blog-16-small-content">
 <p class="blog-16-meta">Admin    Feb 2023    17 Comment</p>
@@ -1128,7 +1219,7 @@
 <!-- Blog 2 -->
 <div class="blog-16-card blog-16-card-small clearfix">
 <div class="col-sm-5 col-xs-12">
-<img alt="Travel" class="img-responsive updateImg" src="assets/images/blog-16-3.jpg?v=1781624824?v=1781624958?v=1781625005?v=1791362069?v=1791362145?v=1791362797"/>
+<img alt="Travel" class="img-responsive updateImg" src="assets/images/blog-16-3.jpg?v=1781624824?v=1781624958?v=1781625005?v=1791362069?v=1791362145?v=1791362797?v=1791436133"/>
 </div>
 <div class="col-sm-7 col-xs-12 blog-16-small-content">
 <p class="blog-16-meta">Admin    Feb 2023    3 Comment</p>
@@ -1139,7 +1230,7 @@
 <!-- Blog 3 -->
 <div class="blog-16-card blog-16-card-small clearfix">
 <div class="col-sm-5 col-xs-12">
-<img alt="Travel" class="img-responsive updateImg" src="assets/images/blog-16-4.jpg?v=1781624824?v=1781624958?v=1781625005?v=1791362069?v=1791362145?v=1791362797"/>
+<img alt="Travel" class="img-responsive updateImg" src="assets/images/blog-16-4.jpg?v=1781624824?v=1781624958?v=1781625005?v=1791362069?v=1791362145?v=1791362797?v=1791436133"/>
 </div>
 <div class="col-sm-7 col-xs-12 blog-16-small-content">
 <p class="blog-16-meta">Admin    Mar 2023    5 Comment</p>
@@ -1150,7 +1241,7 @@
 <!-- Blog 4 -->
 <div class="blog-16-card blog-16-card-small clearfix">
 <div class="col-sm-5 col-xs-12">
-<img alt="Travel" class="img-responsive updateImg" src="assets/images/blog-16-5.jpg?v=1781624824?v=1781624958?v=1781625005?v=1791362069?v=1791362145?v=1791362797"/>
+<img alt="Travel" class="img-responsive updateImg" src="assets/images/blog-16-5.jpg?v=1781624824?v=1781624958?v=1781625005?v=1791362069?v=1791362145?v=1791362797?v=1791436133"/>
 </div>
 <div class="col-sm-7 col-xs-12 blog-16-small-content">
 <p class="blog-16-meta">Admin    Apr 2023    9 Comment</p>
@@ -1172,13 +1263,13 @@
 <!-- Gallery Section -->
 <div class="col-md-6 services-27-gallery text-center">
 <div class="services-27-img-wrap">
-<img alt="Makeup Brushes" class="services-27-img updateImg" src="assets/images/services-27-1.jpg"/>
+<img alt="Makeup Brushes" class="services-27-img updateImg" src="assets/images/services-27-1.jpg?v=1791436133"/>
 </div>
 <div class="services-27-img-wrap">
-<img alt="Makeup Artist" class="services-27-img updateImg" src="assets/images/services-27-2.jpg"/>
+<img alt="Makeup Artist" class="services-27-img updateImg" src="assets/images/services-27-2.jpg?v=1791436133"/>
 </div>
 <div class="services-27-img-wrap">
-<img alt="Makeup Artist" class="services-27-img updateImg" src="assets/images/services-27-3.jpg"/>
+<img alt="Makeup Artist" class="services-27-img updateImg" src="assets/images/services-27-3.jpg?v=1791436133"/>
 </div>
 </div>
 <div class="col-md-6 services-27-text">
@@ -1193,6 +1284,108 @@
 <div class="services-27-buttons">
 <a class="services-27-link" href="#" style="cursor: pointer;">Explore Our Services</a>
 <a class="services-27-btn" href="#" style="cursor: pointer;">Book a Session <i class="ri-arrow-right-line"></i></a>
+</div>
+</div>
+</div>
+</div>
+</section><section class="section-wrapper about-24" id="section-5j7f1fjsjxj">
+<div class="container">
+<div class="row about-24-row">
+<div class="col-md-5 col-sm-12 about-24-content-column">
+<div class="about-24-content">
+<span class="about-24-subtitle">About Nutritius</span>
+<h2 class="about-24-title">
+						Improving Lives Through Healthy Living
+					</h2>
+<p class="about-24-text">
+						There are many variations of passages of Lorem Ipsum available,
+						but the majority have suffered alteration in some form, by injected humour,
+						or randomised words which don't look even slightly believable.
+					</p>
+<h4 class="about-24-list-title">Nutrition Special Offers</h4>
+<div class="row about-24-list">
+<div class="col-xs-6">
+<p class="">
+<i class="ri-checkbox-circle-fill"></i>
+<span class="">Balance Body &amp; Mind</span>
+</p>
+<p class="">
+<i class="ri-checkbox-circle-fill"></i>
+<span class="">Personalized Nutrition</span>
+</p>
+<p class="">
+<i class="ri-checkbox-circle-fill"></i>
+<span class="">Child Nutrition</span>
+</p>
+</div>
+<div class="col-xs-6">
+<p class="">
+<i class="ri-checkbox-circle-fill"></i>
+<span class="">Personal Coaching</span>
+</p>
+<p class="">
+<i class="ri-checkbox-circle-fill"></i>
+<span class="">Sports Nutritionist</span>
+</p>
+<p class="">
+<i class="ri-checkbox-circle-fill"></i>
+<span class="">Support &amp; Motivation</span>
+</p>
+</div>
+</div>
+<a class="about-24-btn" href="#" style="cursor: pointer;">
+<span class="">Read More</span>
+<i class="ri-arrow-right-line"></i>
+</a>
+</div>
+</div>
+<div class="col-md-4 col-sm-6 about-24-image-column">
+<div class="about-24-image-wrap">
+<span class="about-24-image-badge">
+<i class="ri-heart-pulse-line"></i>
+						Healthy Living
+					</span>
+<img alt="Healthy Living" class="about-24-image updateImg" src="assets/images/about-24.jpg"/>
+</div>
+</div>
+<div class="col-md-3 col-sm-6 about-24-stats-column">
+<div class="about-24-stats">
+<div class="about-24-stat">
+<div class="about-24-stat-icon">
+<i class="ri-time-line"></i>
+</div>
+<div class="">
+<h3 class="">546+</h3>
+<p class="">Years Experience</p>
+</div>
+</div>
+<div class="about-24-stat">
+<div class="about-24-stat-icon">
+<i class="ri-checkbox-circle-line"></i>
+</div>
+<div class="">
+<h3 class="">687+</h3>
+<p class="">Projects Done</p>
+</div>
+</div>
+<div class="about-24-stat">
+<div class="about-24-stat-icon">
+<i class="ri-user-smile-line"></i>
+</div>
+<div class="">
+<h3 class="">368+</h3>
+<p class="">Happy Customers</p>
+</div>
+</div>
+<div class="about-24-stat">
+<div class="about-24-stat-icon">
+<i class="ri-award-line"></i>
+</div>
+<div class="">
+<h3 class="">856+</h3>
+<p class="">Awards Won</p>
+</div>
+</div>
 </div>
 </div>
 </div>
